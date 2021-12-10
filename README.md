@@ -23,3 +23,10 @@ If you stuck with Kotlin-specific questions or anything related to this template
 [kotlin]: https://kotlinlang.org
 [slack]: https://surveys.jetbrains.com/s3/kotlin-slack-sign-up
 [template]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template
+
+## Code generation
+
+Use `newDay` gradle task to generate the base code for starting a day
+```bash
+$ ./gradlew newDay -PdayNumber=4
+```
